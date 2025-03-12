@@ -396,7 +396,7 @@ body {
 .desktop {
     animation: startup 1s ease-in-out;
 }
-/* File Manager Styles */
+/* 1.2 */
 .file-manager {
     display: flex;
     height: 100%;
