@@ -22,7 +22,7 @@ BrowserOS v1.2 is the first version of an experimental browser-based operating s
 
 📊 Calculator with basic math operations
 
-UPDATE ==== FILES MANAGER WITH GOOD DESIGN!
+👑 UPDATE 1.2  ==== FILES MANAGER WITH GOOD DESIGN! 👑
 
 📃 Installation & Running
 
@@ -36,17 +36,15 @@ Enjoy using BrowserOS! 🚀
 
 🛠️ Future Updates
 
-File manager integration
-
 UI improvements
 
 Advanced window settings
 
 Support for third-party widgets
 
-Performance optimizations
+📲 Performance optimizations (in 1.2 better than 1.0(i removed some stuff that dont need) === in 2.0 it would be even more better) 📲
 
-This is just version 1.0, and many exciting updates are coming soon! Stay tuned for new releases.
+This is just version 1.2, and many exciting updates are coming soon! Stay tuned for new releases.
 
 ⚙️ Technologies
 
@@ -62,7 +60,7 @@ Volodymyr Shevchenko
 
 GitHub:  ProgCrafterq
 
-BrowserOS v1.0
+BrowserOS v1.2
 
 ✨ Описание
 
@@ -86,7 +84,7 @@ BrowserOS v1.2 — это первая версия эксперименталь
 
 📊 Калькулятор с базовыми математическими операциями
 
-ОБНОВЛЕНИЕ === ФАЙЛОВЫЙ МЕНЕДЖЕР С ХОРОШИМ ДИЗАЙНОМ
+👑 ОБНОВЛЕНИЕ 1.2 === ФАЙЛОВЫЙ МЕНЕДЖЕР С ХОРОШИМ ДИЗАЙНОМ 👑
 
 📃 Установка и запуск
 
@@ -100,15 +98,13 @@ git clone https://github.com/ProgCrafterq/BrowserOSv1.0
 
 🛠️ Будущие обновления
 
-Добавление файлового менеджера
-
 Улучшение интерфейса
 
 Расширенные настройки окон
 
 Поддержка сторонних виджетов
 
-Оптимизация работы
+📲 Оптимизация работы(в этой версии 1.2 уже лучше чем в 1.0 убрал ненужные фигни, в 2.0 которая выйдет поже будет еще лучше) 📲
 
 Это одни из первых версий (v1.2), и впереди нас ждёт много крутых обновлений! Следите за новыми релизами.
 
