@@ -1,8 +1,8 @@
-BrowserOS v1.0
+BrowserOS v1.2
 
 ✨ Description
 
-BrowserOS v1.0 is the first version of an experimental browser-based operating system built with HTML, CSS, and JavaScript. This OS runs directly in the browser and provides a convenient minimalist interface with essential functions. It is just a simulation and does not replace a real operating system.
+BrowserOS v1.2 is the first version of an experimental browser-based operating system built with HTML, CSS, and JavaScript. This OS runs directly in the browser and provides a convenient minimalist interface with essential functions. It is just a simulation and does not replace a real operating system.
 
 🔧 Features
 
@@ -22,11 +22,13 @@ BrowserOS v1.0 is the first version of an experimental browser-based operating s
 
 📊 Calculator with basic math operations
 
+UPDATE ==== FILES MANAGER WITH GOOD DESIGN!
+
 📃 Installation & Running
 
 Clone the repository:
 
-git clone https://github.com/ProgCrafterq/BrowserOSv1.0
+git clone https://github.com/ProgCrafterq/BrowserOS.v1.2
 
 Open index.html in a browser
 
@@ -64,7 +66,7 @@ BrowserOS v1.0
 
 ✨ Описание
 
-BrowserOS v1.0 — это первая версия экспериментальной браузерной операционной системы, созданной с использованием HTML, CSS и JavaScript. Эта ОС запускается прямо в браузере и предоставляет удобный минималистичный интерфейс с базовыми функциями. Это всего лишь симуляция и не заменяет настоящую операционную систему.
+BrowserOS v1.2 — это первая версия экспериментальной браузерной операционной системы, созданной с использованием HTML, CSS и JavaScript. Эта ОС запускается прямо в браузере и предоставляет удобный минималистичный интерфейс с базовыми функциями. Это всего лишь симуляция и не заменяет настоящую операционную систему.
 
 🔧 Функции
 
@@ -83,6 +85,8 @@ BrowserOS v1.0 — это первая версия эксперименталь
 🤖 Терминал для выполнения команд
 
 📊 Калькулятор с базовыми математическими операциями
+
+ОБНОВЛЕНИЕ === ФАЙЛОВЫЙ МЕНЕДЖЕР С ХОРОШИМ ДИЗАЙНОМ
 
 📃 Установка и запуск
 
@@ -106,7 +110,7 @@ git clone https://github.com/ProgCrafterq/BrowserOSv1.0
 
 Оптимизация работы
 
-Это только первая версия (v1.0), и впереди нас ждёт много крутых обновлений! Следите за новыми релизами.
+Это одни из первых версий (v1.2), и впереди нас ждёт много крутых обновлений! Следите за новыми релизами.
 
 ⚙️ Технологии
 
