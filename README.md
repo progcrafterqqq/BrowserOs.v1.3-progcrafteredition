@@ -90,7 +90,7 @@ BrowserOS v1.2 — это первая версия эксперименталь
 
 Склонируйте репозиторий:
 
-git clone https://github.com/ProgCrafterq/BrowserOSv1.0
+git clone https://github.com/ProgCrafterq/BrowserOS.v1.2
 
 Откройте index.html в браузере
 
