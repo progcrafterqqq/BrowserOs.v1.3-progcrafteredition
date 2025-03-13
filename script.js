@@ -1064,6 +1064,143 @@ function playSound(audioElement) {
             showNotification('Folder Created', `Folder "${folderName}" has been created.`);
         }
     });
+
+    function addRestartButton() {
+        const restartButton = document.createElement('div');
+        restartButton.className = 'restart-button';
+        restartButton.innerHTML = '<i class="fas fa-power-off"></i>';
+        restartButton.title = 'Restart System';
+        
+        restartButton.style.marginLeft = 'auto';
+        restartButton.style.marginRight = '10px';
+        restartButton.style.cursor = 'pointer';
+        restartButton.style.color = 'var(--text-color)';
+        restartButton.style.display = 'flex';
+        restartButton.style.alignItems = 'center';
+        restartButton.style.justifyContent = 'center';
+        restartButton.style.width = '30px';
+        restartButton.style.height = '40px';
+        restartButton.style.borderRadius = '50%';
+        restartButton.style.transition = 'background-color 0.3s';
+        
+        restartButton.addEventListener('mouseenter', () => {
+            restartButton.style.backgroundColor = 'rgba(255, 255, 255, 0.1)';
+        });
+        
+        restartButton.addEventListener('mouseleave', () => {
+            restartButton.style.backgroundColor = 'transparent';
+        });
+        
+        restartButton.addEventListener('click', () => {
+            showRestartConfirmation();
+        });
+        
+        const appTaskbar = document.getElementById('appTaskbar');
+        appTaskbar.appendChild(restartButton);
+    }
+    
+    function showRestartConfirmation() {
+        const confirmDialog = document.createElement('div');
+        confirmDialog.className = 'confirmation-dialog';
+        confirmDialog.innerHTML = `
+            <div class="confirmation-content">
+                <h3>Restart System</h3>
+                <p>Are you sure you want to restart BrowserOS?</p>
+                <div class="confirmation-buttons">
+                    <button id="cancelRestart">Cancel</button>
+                    <button id="confirmRestart">Restart</button>
+                </div>
+            </div>
+        `;
+        
+        const dialogStyles = document.createElement('style');
+        dialogStyles.textContent = `
+            .confirmation-dialog {
+                position: fixed;
+                top: 0;
+                left: 0;
+                right: 0;
+                bottom: 0;
+                background-color: rgba(0, 0, 0, 0.5);
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                z-index: 9999;
+            }
+            
+            .confirmation-content {
+                background-color: var(--window-color);
+                padding: 20px;
+                border-radius: 5px;
+                box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+                max-width: 300px;
+                width: 100%;
+            }
+            
+            .confirmation-content h3 {
+                margin-top: 0;
+                color: var(--title-color);
+            }
+            
+            .confirmation-content p {
+                margin-bottom: 20px;
+                color: var(--text-color);
+            }
+            
+            .confirmation-buttons {
+                display: flex;
+                justify-content: flex-end;
+            }
+            
+            .confirmation-buttons button {
+                padding: 8px 12px;
+                margin-left: 10px;
+                border: none;
+                border-radius: 4px;
+                cursor: pointer;
+            }
+            
+            #cancelRestart {
+                background-color: transparent;
+                color: var(--text-color);
+                border: 1px solid var(--text-color);
+            }
+            
+            #confirmRestart {
+                background-color: var(--accent-color);
+                color: white;
+            }
+        `;
+        
+        document.head.appendChild(dialogStyles);
+        document.body.appendChild(confirmDialog);
+        
+        document.getElementById('cancelRestart').addEventListener('click', () => {
+            confirmDialog.remove();
+        });
+        
+        document.getElementById('confirmRestart').addEventListener('click', () => {
+            const restartScreen = document.createElement('div');
+            restartScreen.className = 'boot-screen';
+            restartScreen.innerHTML = `
+                <div class="boot-logo">
+                    <i class="fas fa-sync fa-5x fa-spin"></i>
+                </div>
+                <div class="boot-text">Restarting BrowserOS...</div>
+            `;
+            document.body.appendChild(restartScreen);
+            
+            const startupSound = document.getElementById('startupSound');
+            if (startupSound) {
+                startupSound.currentTime = 0;
+                startupSound.play().catch(err => console.log('Audio play error:', err));
+            }
+            
+            setTimeout(() => {
+                window.location.reload();
+            }, 2000);
+        });
+    }
     
     function bootSystem() {
         const bootScreen = document.createElement('div');
@@ -1092,6 +1229,7 @@ function playSound(audioElement) {
     }
     
     bootSystem();
+    addRestartButton();
     
     const additionalStyles = document.createElement('style');
     additionalStyles.textContent = `
