@@ -6,6 +6,15 @@ document.addEventListener('DOMContentLoaded', function() {
         { name: 'Terminal', icon: 'fas fa-terminal', app: 'terminal', left: 20, top: 240 },
         { name: 'Settings', icon: 'fas fa-cog', app: 'settings', left: 20, top: 350 }
     ];
+    const startupSound = document.getElementById('startupSound');
+const notificationSound = document.getElementById('notificationSound');
+
+function playSound(audioElement) {
+    if (audioElement) {
+        audioElement.currentTime = 0;
+        audioElement.play().catch(err => console.log('Audio play error:', err));
+    }
+}
 
     const desktop = document.getElementById('desktop');
     const startMenu = document.getElementById('startMenu');
@@ -1007,6 +1016,8 @@ document.addEventListener('DOMContentLoaded', function() {
     // Additional features ILL DO IT SOOON !!!!!!!!!!!!!!!! WAIT
     
     function showNotification(title, message) {
+
+        playSound(notificationSound);
         const notification = document.createElement('div');
         notification.className = 'notification';
         notification.innerHTML = `
@@ -1063,6 +1074,8 @@ document.addEventListener('DOMContentLoaded', function() {
             <div class="boot-text">Starting BrowserOS v1.2...</div>
         `;
         document.body.appendChild(bootScreen);
+
+        playSound(startupSound);
         
         setTimeout(() => {
             bootScreen.classList.add('fade-out');
