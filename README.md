@@ -24,6 +24,9 @@ BrowserOS v1.2 is the first version of an experimental browser-based operating s
 
 👑 UPDATE 1.2  ==== FILES MANAGER WITH GOOD DESIGN! 👑
 
+👑 UPDATE 1.2  ==== SOUNDS! 👑
+
+
 📃 Installation & Running
 
 Clone the repository:
@@ -85,6 +88,9 @@ BrowserOS v1.2 — это первая версия эксперименталь
 📊 Калькулятор с базовыми математическими операциями
 
 👑 ОБНОВЛЕНИЕ 1.2 === ФАЙЛОВЫЙ МЕНЕДЖЕР С ХОРОШИМ ДИЗАЙНОМ 👑
+
+👑 ОБНОВЛЕНИЕ 1.2 === ЗВУКИ 👑
+
 
 📃 Установка и запуск
 
