@@ -872,6 +872,8 @@ function playSound(audioElement) {
                 });
                 loadFiles(currentLocation);
             }
+
+            showNotification('New file.', 'You created new file successfully.');
         }
         
         filesContainer.addEventListener('click', (e) => {
