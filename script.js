@@ -856,6 +856,7 @@ function playSound(audioElement) {
                 });
                 loadFiles(currentLocation);
             }
+            showNotification('New Folder', 'You created folder successfully.');
         }
         
         function createNewFile(type) {
@@ -979,6 +980,7 @@ function playSound(audioElement) {
     
     function applyWallpaper(wallpaper) {
         const desktop = document.getElementById('desktop');
+        showNotification('Wallpaper', 'You changed wallpaper.');
         
         switch (wallpaper) {
             case 'gradient1':
