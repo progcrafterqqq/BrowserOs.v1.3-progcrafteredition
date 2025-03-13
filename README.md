@@ -2,7 +2,7 @@ BrowserOS v1.2
 
 ✨ Description
 
-BrowserOS v1.2 is the first version of an experimental browser-based operating system built with HTML, CSS, and JavaScript. This OS runs directly in the browser and provides a convenient minimalist interface with essential functions. It is just a simulation and does not replace a real operating system.
+BrowserOS v1.2 is the second version of an experimental browser-based operating system built with HTML, CSS, and JavaScript. This OS runs directly in the browser and provides a convenient minimalist interface with essential functions. It is just a simulation and does not replace a real operating system.
 
 🔧 Features
 
@@ -26,6 +26,8 @@ BrowserOS v1.2 is the first version of an experimental browser-based operating s
 
 👑 UPDATE 1.2  ==== SOUNDS! 👑
 
+👑 UPDATE 1.2  ==== BETTER NOTIFICATIONS! 👑
+
 
 📃 Installation & Running
 
@@ -35,7 +37,7 @@ git clone https://github.com/ProgCrafterq/BrowserOS.v1.2
 
 Open index.html in a browser
 
-Enjoy using BrowserOS! 🚀
+Enjoy using BrowserOS v1.2! 🚀
 
 🛠️ Future Updates
 
@@ -67,7 +69,7 @@ BrowserOS v1.2
 
 ✨ Описание
 
-BrowserOS v1.2 — это первая версия экспериментальной браузерной операционной системы, созданной с использованием HTML, CSS и JavaScript. Эта ОС запускается прямо в браузере и предоставляет удобный минималистичный интерфейс с базовыми функциями. Это всего лишь симуляция и не заменяет настоящую операционную систему.
+BrowserOS v1.2 — это вторая версия экспериментальной браузерной операционной системы, созданной с использованием HTML, CSS и JavaScript. Эта ОС запускается прямо в браузере и предоставляет удобный минималистичный интерфейс с базовыми функциями. Это всего лишь симуляция и не заменяет настоящую операционную систему.
 
 🔧 Функции
 
@@ -91,6 +93,8 @@ BrowserOS v1.2 — это первая версия эксперименталь
 
 👑 ОБНОВЛЕНИЕ 1.2 === ЗВУКИ 👑
 
+👑 ОБНОВЛЕНИЕ 1.2 === УЛУЧШЕННЫЕ УВЕДОМЛЕНИЯ 👑
+
 
 📃 Установка и запуск
 
@@ -100,7 +104,7 @@ git clone https://github.com/ProgCrafterq/BrowserOS.v1.2
 
 Откройте index.html в браузере
 
-Наслаждайтесь работой с BrowserOS! 🚀
+Наслаждайтесь работой с BrowserOS версии 1.2! 🚀
 
 🛠️ Будущие обновления
 
