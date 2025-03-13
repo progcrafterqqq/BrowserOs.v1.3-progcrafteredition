@@ -28,6 +28,8 @@ BrowserOS v1.2 is the second version of an experimental browser-based operating 
 
 👑 UPDATE 1.2  ==== BETTER NOTIFICATIONS! 👑
 
+👑 UPDATE 1.2  ==== ⚙️ RESTART BUTTON ⚙️
+
 
 📃 Installation & Running
 
@@ -94,6 +96,8 @@ BrowserOS v1.2 — это вторая версия эксперименталь
 👑 ОБНОВЛЕНИЕ 1.2 === ЗВУКИ 👑
 
 👑 ОБНОВЛЕНИЕ 1.2 === УЛУЧШЕННЫЕ УВЕДОМЛЕНИЯ 👑
+
+👑 ОБНОВЛЕНИЕ 1.2  ==== ⚙️ КНОПКА ПЕРЕЗАГРУЗКИ ⚙️
 
 
 📃 Установка и запуск
