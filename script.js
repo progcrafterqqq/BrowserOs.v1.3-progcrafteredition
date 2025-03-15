@@ -1017,7 +1017,7 @@ function playSound(audioElement) {
     }
     
     
-    // Additional features ILL DO IT SOOON !!!!!!!!!!!!!!!! WAIT
+    //доп функции в далеком будущем
     
     function showNotification(title, message) {
 
