@@ -542,8 +542,8 @@ function playSound(audioElement) {
                 { name: 'system.config', type: 'file', fileType: 'code' }
             ],
             documents: [
-                { name: 'Project Plan.txt', type: 'file', fileType: 'document' },
-                { name: 'Resume.pdf', type: 'file', fileType: 'document' },
+                { name: 'domasneezadanie.txt', type: 'file', fileType: 'document' },
+                { name: 'documentimportant.pdf', type: 'file', fileType: 'document' },
                 { name: 'Budget.xlsx', type: 'file', fileType: 'document' },
                 { name: 'Work', type: 'folder', contents: [
                     { name: 'Report.docx', type: 'file', fileType: 'document' },
@@ -551,7 +551,7 @@ function playSound(audioElement) {
                 ]}
             ],
             pictures: [
-                { name: 'Vacation.jpg', type: 'file', fileType: 'image' },
+                { name: 'more2009.jpg', type: 'file', fileType: 'image' },
                 { name: 'Family.jpg', type: 'file', fileType: 'image' },
                 { name: 'Screenshot.png', type: 'file', fileType: 'image' },
                 { name: 'Wallpapers', type: 'folder', contents: [
@@ -560,9 +560,9 @@ function playSound(audioElement) {
                 ]}
             ],
             downloads: [
-                { name: 'app-installer.exe', type: 'file', fileType: 'application' },
+                { name: 'kleshroyal.exe', type: 'file', fileType: 'application' },
                 { name: 'archive.zip', type: 'file', fileType: 'archive' },
-                { name: 'movie.mp4', type: 'file', fileType: 'video' }
+                { name: 'more2012.mp4', type: 'file', fileType: 'video' }
             ]
         };
         
@@ -794,7 +794,7 @@ function playSound(audioElement) {
                     }
                     break;
                 case 'delete':
-                    if (confirm(`Are you sure you want to delete ${file.name}?`)) {
+                    if (confirm(`Are you sur you want to delete ${file.name}?`)) {
                         const files = extendedFileSystem[currentLocation];
                         const index = files.findIndex(f => f.name === file.name);
                         if (index !== -1) {
